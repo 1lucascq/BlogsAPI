@@ -264,4 +264,4 @@ Para fazer um post é necessário usuário e login, portanto será trabalhada a 
 ---
 
 # Implementações Futuras
-- Criação de uma aplicação Front-End estilizada para consumir a API;
+- Criação de uma aplicação Front-End estilizada para consumir a API.
