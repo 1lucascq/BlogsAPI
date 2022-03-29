@@ -1,9 +1,8 @@
 # Sumário
 
 - [Sobre o Projeto](#sobre-o-projeto)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Notas](#notas)
-- [Objetivos](#Objetivos)
+- [Objetivos](#objetivos)
   - [Lista de objetivos](#lista-de-objetivos)
     - [1 - Endpoint POST `/user`](#1---endpoint-POST-user)
     - [2 - Endpoint POST `/login`](#2---endpoint-POST-login)
@@ -24,15 +23,10 @@
 # Sobre o Projeto 
 
 Nesse projeto, você vai construir um back-end usando `ORM` com o pacote `sequelize` do `npm`, e será capaz de:
- - Criar e associar tabelas usando `models` do `sequelize`
- - Construir endpoints para consumir os models que criar 
- - Fazer um `CRUD` com o `ORM`
-
-## O que deverá ser desenvolvido
-
-Arquiteturar e desenvolver uma API de um CRUD posts de blog (com o Sequelize). Começando pela API, serão desenvolvidos alguns endpoints (seguindo os princípios do REST) que estarão conectados ao seu banco de dados.
-
-Primeiro, você irá criar uma tabela para os usuários que desejam se cadastrar na aplicação. Após isso, criará também uma tabela de Categorias para seus Posts e por fim a tabela de Posts será seu foco, guardando todas as informações dos posts realizados na plataforma. Essa é apenas uma recomendação!
+ - Criar e associar tabelas usando `models` do `sequelize`;
+ - Construir endpoints para consumir os models que criar ;
+ - Fazer um `CRUD` com o `ORM`;
+ - Observação dos princípios para criação de uma RestFul API.
 
 ---
 ## Notas
@@ -41,8 +35,6 @@ Primeiro, você irá criar uma tabela para os usuários que desejam se cadastrar
 `user: process.env.MYSQL_USER`
 `password: process.env.MYSQL_PASSWORD`
 `jwt_secret: process.env.JWT_SECRET`
-
-- O projeto se encontra online e apto para testes no link contido na sessão **About**.
 
 ---
 # Objetivos
